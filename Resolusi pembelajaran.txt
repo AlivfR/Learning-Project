@@ -1,0 +1,9 @@
+Target 1 tahun kedepan dalam belajar web development
+  -Mempelajari HTML
+  -Menguasai penggunaan element dan attribute pada HTML
+  -Mempelajari CSS
+  -Memahami cara costumize tampilan yang menarik untuk web/web-based app menggunakan CSS
+  -Mempelajari Javascript
+  -Menggunakan javascirpt untuk membuat web/web-based app bekerja sesuai dengan tujuan dibuatnya
+  -Membuat web/web app based sederhana (contoh: kalkulator)
+  -Membuat web pribadi untuk portofolio pertama. (Target utama di 1 tahun pertama (Deadline: 6 Maret 2023))
