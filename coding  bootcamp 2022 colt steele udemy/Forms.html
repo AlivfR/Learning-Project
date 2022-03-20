@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms demo</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form action="/dummy">
+        <label for="nothing">This button is inside a form, but does nothing</label>
+        <button id="nothing" type="button">a useless button</button>
+        <p>
+            <label for="username">Enter your username:</label>
+            <input id="username" type="text" placeholder="Username" name="username">
+        </p>
+        <p>
+            <!--The format bellow is valid, but it's uncommon practice-->
+            <label>
+                Enter your password:
+                <input id="password" type="password" placeholder="Password" name="password">
+            </label>
+
+        </p>
+        <p>
+            <label for="date">Date of birth:</label>
+            <input id="date" type="date" name="birthday">
+        </p>
+        <p>
+            <label for="range">Slide them!</label>
+            <input id="range" type="range">
+        </p>
+        <label for="submit">this button will send request according to action attribute of above form</label>
+        <button id="submit" type="submit">Submit</button>
+        <p>
+            <!-- this is the other way to create submit button-->
+            <label for="submit2">so does this one</label>
+            <input id="submit2" type="submit" value="click me">
+        </p>
+    </form>
+    <hr>
+    <label for="dummy">this button is outside the form</label>
+    <button id="dummy">Dummy button</button>
+
+</body>
+
+</html>
